@@ -144,6 +144,7 @@
                   <input type="hidden" name="cancel_return" value="<?php echo $CANCELURL; ?>" />
                   <input type="hidden" name="business" value="<?php echo osc_get_preference('paypal_email', 'payment'); ?>" />
                   <input type="hidden" name="upload" value="1" />
+                  <input type="hidden" name="cbt" value="Return to Store" />
                   <input type="hidden" name="no_note" value="1" />
                   <input type="hidden" name="charset" value="utf-8" />
                 </form>
